@@ -1,0 +1,26 @@
+{
+  "name": "wdio-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio ./wdio.conf.js --cucumberOpts.tagExpression",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.12.3",
+    "@wdio/cli": "^8.13.12",
+    "@wdio/cucumber-framework": "^8.13.9",
+    "@wdio/local-runner": "^8.13.12",
+    "chromedriver": "^114.0.0",
+    "msedgedriver": "^91.0.0",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-edgedriver-service": "^3.0.3",
+    "wdio-nuxt-service": "^0.1.0",
+    "wdio-video-reporter": "^4.0.3",
+    "wdio-wait-for": "^3.0.6"
+  }
+}
